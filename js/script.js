@@ -102,37 +102,27 @@ const arrayCaes = [
     }
 ]
 
+for (let i = 0; i < arrayCaes.length; i++) {
+    const divCaes = document.createElement('div')    
 
-console.log(arrayCaes[1])
+    divCaes.classList.add('caes-card')
+    //falta adicionar a img
+    
+divCaes.innerHTML = `
 
-const adocaoCaes = document.querySelector(".adocaoDeCaes");
+<h2>${arrayCaes[i].titulo}</h2>
+<ul>  
+<li> ${arrayCaes[i].descricao1}</li>
+<li> ${arrayCaes[i].descricao2}</li>
+<li> ${arrayCaes[i].descricao3}</li>
+<li> ${arrayCaes[i].descricao4}</li>
+<li> ${arrayCaes[i].descricao5}</li>
+<li> ${arrayCaes[i].descricao6}</li>
+</ul>
+<div class ="linkAdotar"
+<p> ${arrayCaes[i].linkAdotar}</p>
+</div>`
 
-if (adocaoCaes) { 
-    for (let i = 0; i < arrayCaes.length; i++) {
-        let adocaoCaes = document.createElement("adocaoCaes");
-
-        main.innerHTML = `
-        <div class="caesAdotar">${arrayCaes[i].imagem}</div>
-        <h2>${arrayCaes[i].titulo}</h2>
-        <ul>
-        <li>${arrayCaes[i].descricao1}</li>
-        <li>${arrayCaes[i].descricao2}</li>
-        <li>${arrayCaes[i].descricao3}</li>
-        <li>${arrayCaes[i].descricao4}</li>
-        <li>${arrayCaes[i].descricao5}</li>
-        <li>${arrayCaes[i].descricao6}</li>
-        </ul>
-        <div class="linkAdotar">
-         ${arrayCaes[i].linkAdotar}
-        </div>
-        </div>
-      `
-
-
-        main.id = `caesAdotar-${i}`;
-
-        adocaoCaes.appendChild(main);
-    }
-} else {
-    console.error("Elemento '.caes-adocao' não encontrado no HTML");
+const main = document.querySelector('main')
+main.appendChild(divCaes)
 }
