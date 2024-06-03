@@ -55,50 +55,50 @@ body{
 
   
   /* Estilizando o conteúdo principal */
-  main {
+  
+    main {
     padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around; 
+    flex-wrap: wrap;  
+    gap: 20px;
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+
+   
+  main img{
+    width: 280px;
+    height: 200px;
   }
   
   main h2 {
     margin-top: 0;
-  }
-  
-  section {
-    display: inline-flex;
-    box-shadow: 4px 4px 12px #aaaa;
-    background-color: #C2C4F9;
-    width: 22%; 
-    margin: 1%; 
-    height: auto; 
+    height: 15px;
+    align-items: center;
   }
   
   .caesAdotar {
+    display: inline-flex;
+    box-shadow: 50px 50px 60px #aaaa;
+    background-color: #C2C4F9;
+    width: 10%; 
+    margin: auto; 
+    height: auto; 
+  }
+  
+
+  .linkAdotar{
     display: flex;
     align-items: center;
-    justify-content: space-around; 
-    flex-wrap: wrap; 
-    padding-right: 50px; 
-    padding-left: 50px; 
-  }
-  
-  main section img {
-    max-width: 100%;
-    height: auto;
-  }
-
-   
-  main section h2{
-    height: 15px;
-    }
-  
-  
-  .linkAdotar{
     background-color: #E7BCF2;
+    width: 215px;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
   }
-  
+
   footer {
 	background-color: #2BAB6E;
 	color: #fff;
