@@ -54,8 +54,6 @@ body{
   }
 
   
-  /* Estilizando o conteúdo principal */
-  
     main {
     padding: 20px;
     display: flex;
@@ -121,4 +119,9 @@ footer li {
 footer a {
 	color: #fff;
 	text-decoration: none;
+}
+
+.mobile{
+  display: none;
+  margina-left: 4rem;
 }
