@@ -45,64 +45,64 @@ header{
 }
 
 body{
-    overflow-x: hidden;
+  overflow-x: hidden;
 }
 
 #titulo{
-    margin-top: 0;
-    text-align: center;
+  margin-top: 0;
+  text-align: center;
   }
 
   
-    main {
-    padding: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around; 
-    flex-wrap: wrap;  
-    gap: 20px;
-    padding-right: 150px;
-    padding-left: 150px;
-  }
+main {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around; 
+  flex-wrap: wrap;  
+  gap: 20px;
+  padding-right: 150px;
+  padding-left: 150px;
+}
 
    
-  main img{
-    width: 280px;
-    height: 200px;
-  }
+main img{
+  width: 280px;
+  height: 200px;
+}
   
-  main h2 {
-    margin-top: 0;
-    height: 15px;
-    align-items: center;
-  }
+main h2 {
+  margin-top: 0;
+  height: 15px;
+  align-items: center;
+}
   
-  .caesAdotar {
-    display: inline-flex;
-    box-shadow: 50px 50px 60px #aaaa;
-    background-color: #C2C4F9;
-    width: 10%; 
-    margin: auto; 
-    height: auto; 
-  }
+.caesAdotar {
+  display: inline-flex;
+  box-shadow: 50px 50px 60px #aaaa;
+  background-color: #C2C4F9;
+  width: 10%; 
+  margin: auto; 
+  height: auto; 
+}
   
 
-  .linkAdotar{
-    display: flex;
-    align-items: center;
-    background-color: #E7BCF2;
-    width: 215px;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-  }
+.linkAdotar{
+  display: flex;
+  align-items: center;
+  background-color: #E7BCF2;
+  width: 215px;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
 
-  footer {
-	background-color: #2BAB6E;
-	color: #fff;
-	padding: 20px;
-	text-align: center;
-	margin-top: 50px;
+footer {
+  background-color: #2BAB6E;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  margin-top: 50px;
 }
 
 footer ul {
@@ -119,9 +119,4 @@ footer li {
 footer a {
 	color: #fff;
 	text-decoration: none;
-}
-
-.mobile{
-  display: none;
-  margina-left: 4rem;
 }
