@@ -69,12 +69,6 @@ section ul img{
     box-shadow: 4px 4px 12px #aaaa;
 }
 
-section li{
-    display: block;
-    text-align: center;
-    margin-bottom: 20px;
-}
-
 section ul {
     display: block;
     text-align: center;
@@ -122,4 +116,53 @@ footer li {
 footer a {
     color: #fff;
     text-decoration: none;
+}
+
+.img{
+flex-direction: row;
+display: flex;    
+gap: 40%;
+justify-content: center;
+margin-right:189px;
+
+}
+.img {
+    width: 190px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+
+.colaboradores{
+    display: flex;    
+    gap: 9%;
+    justify-content: center;
+    margin-top: 1%;
+    font-family:"Calistoga", serif;
+    list-style-type: none;
+    
+}
+
+.texto{
+    background-color: #E7BCF2;
+    border-radius: 30px;
+    margin: 5%;
+    padding: 30px 30px;
+    font-size: 20px;    
+}
+
+.hevelim{
+    border-radius: 20px;
+}
+
+.livania{
+    border-radius: 20px;
+}
+
+.samuel{
+    border-radius: 20px;
+}
+
+.paula{
+    border-radius: 20px;
 }
